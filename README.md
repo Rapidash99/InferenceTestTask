@@ -13,7 +13,7 @@ A microservice for messages processing (each message sends from one user to anot
 * Django Rest Framework
 ## Urls:
 ### For authorized users:
-* /api/v1/messenger/message/create/ ** – Create message**
+* /api/v1/messenger/message/create/ __ – Create message __
 * /api/v1/messenger/message/all/ ** – Read all messages that user may see (he is sender or owner)**
 * /api/v1/message/user/<int:pk> ** – Read all messages from chat with certain user (by user id)**
 * /api/v1/message/user/<str:username ** – Read all messages from chat with certain user (by username)**
