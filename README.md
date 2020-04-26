@@ -24,3 +24,8 @@ A microservice for messages processing (each message sends from one user to anot
 ### For unathorized:
 * /api/v1/auth/ **– For login by Djoser**
 * /api/v1/auth_token/ **– For login by Djoser**
+## Install:
+pip install -r requirements.txt
+## Run:
+* python manage.py runserver
+* ./manage.py runserver
